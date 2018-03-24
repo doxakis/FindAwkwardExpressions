@@ -6,11 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AhoCorasick" Version="2.0.11" />
+    <Compile Remove="%2a%2a\**" />
+    <EmbeddedResource Remove="%2a%2a\**" />
+    <None Remove="%2a%2a\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Samples\" />
+    <PackageReference Include="AhoCorasick" Version="2.0.11" />
   </ItemGroup>
 
 </Project>
