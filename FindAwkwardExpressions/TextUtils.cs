@@ -165,7 +165,7 @@ namespace FindAwkwardExpressions
 			
 			// Unfortunately, it doesn't support wildcard.
 			// But, we will use the longuest fixed expression.
-			// So, we reduce complexities and the number of regex check.
+			// So, we reduce the complexities and the number of regex check.
 
 			// The algorithm will tell us which Regex to evaluate.
 			// But, if it is an exact expression, no need to do extra processing.
